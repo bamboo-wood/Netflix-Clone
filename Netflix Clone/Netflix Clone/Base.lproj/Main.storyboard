@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collection View Controller-->
+        <!--Reminder List View Controller-->
         <scene sceneID="Xah-e0-ds3">
             <objects>
-                <collectionViewController id="Tg0-Z1-4Pb" sceneMemberID="viewController">
+                <collectionViewController id="Tg0-Z1-4Pb" customClass="ReminderListViewController" customModule="Netflix_Clone" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="TyN-K1-Ijd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
